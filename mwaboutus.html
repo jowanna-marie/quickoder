@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Website - About Us</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link rel="stylesheet" href="/build/tailwind.css">
+    <style>
+        @font-face {
+            font-family: poppins;
+            src: url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        }
+
+        .font-poppins {
+            font-family: poppins;
+        }
+    </style>
+</head>
+<body class="font-poppins dark:bg-[#111723] dark:text-[#4F9AFE] dark:bg-white light:bg-[#FFFFFF] light:text-[#000000]">
+        <nav class="flex flex-row items-center justify-between w-full h-auto px-16 bg-transparent md:px-32"> 
+            <div class="flex items-center justify-center">
+                <a href=""> <img src="img/qlogo.png" class="h-32 w-38" alt=""> </a>    
+            </div>
+
+            <div class="flex items-center justify-center">
+                <div class="flex items-center justify-center hidden space-x-10 md:block lg:space-x-2">
+                <a href="#" class="focus:outline-none focus:text-white hover:text-white"> About </a>
+                <a href="#" class="focus:outline-none focus:text-white hover:text-white"> Templates </a>
+                <a href="#" class="focus:outline-none focus:text-white hover:text-white"> FAQ & Pricing </a>
+                <a href="#" class="focus:outline-none focus:text-white hover:text-white"> Documentation </a>
+                <a href="#" class="focus:outline-none focus:text-white hover:text-white"> Contact </a>
+                <a href="#" class="flex inline-flex items-center focus:outline-none focus:text-white hover:text-white"> Sign in
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+                </div>
+
+                <div class="block md:hidden">
+                    <button class="focus:outline-none" onClick="toggleElement('navigation')">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="block w-8 h-8" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        
+        <div id="navigation" class="flex items-center justify-end hidden mx-16 bg-transparent">
+            <div class="flex flex-col space-y-4 text-right">
+                <a href="#" class="focus:outline-none focus:text-white"> About </a>
+                <a href="#" class="focus:outline-none focus:text-white"> Templates </a>
+                <a href="#" class="focus:outline-none focus:text-white"> FAQ & Pricing </a>
+                <a href="#" class="focus:outline-none focus:text-white"> Documentation </a>
+                <a href="#" class="focus:outline-none focus:text-white"> Contact </a>
+            </div>
+        </div>
+        <!-- End of NavBar -->
+
+        <div class="flex flex-col items-center justify-center w-full px-16 mt-10 space-y-16 md:px-32">
+            <h1 class="text-5xl tracking-widest uppercase"> Who are we </h1>
+            <p class="text-center dark:text-white break-words mx-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+        <!-- Our Mission -->
+        <div class="grid w-full h-auto grid-cols-2 mt-28">
+            <div class="flex flex-col items-center justify-center w-full h-full space-y-10" style="background-color: #161E2E;">
+                <h3 class="text-3xl tracking-widest "> OUR MISSION</h3>
+                <p class="mx-20 text-center text-white break-word text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+
+            <div>
+                <img src="img/mission.png" alt="">
+            </div>
+
+            <!-- Our Approach -->
+            <div>
+                <img src="img/approach.png" alt="">
+            </div>
+
+            <div class="flex flex-col items-center justify-center w-full h-full space-y-10" style="background-color: #161E2E;">
+                <h3 class="text-3xl tracking-widest "> OUR APPROACH</h3>
+                <p class="mx-20 text-center text-white break-word text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+
+            <!-- Our Process -->
+            <div class="flex flex-col items-center justify-center w-full h-full space-y-10" style="background-color: #161E2E;">
+                <h3 class="text-3xl tracking-widest "> OUR PROCESS</h3>
+                <p class="mx-20 text-center text-white break-word text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+
+            <div>
+                <img src="img/process.png" alt="">
+            </div>
+        </div>
+        
+        <!-- script -->
+        <script>
+            function toggleElement(elemID){
+            document.getElementById(elemID).classList.toggle("hidden");
+            document.getElementById(elemID).classList.toggle("block");
+            }
+        </script>
+</body>
+</html>
