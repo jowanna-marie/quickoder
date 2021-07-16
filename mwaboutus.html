@@ -1,108 +1,184 @@
-<html lang="en">
+<html lang="en" class="dark">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Website - About Us</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+        integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
     <link rel="stylesheet" href="/build/tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <style>
         @font-face {
             font-family: poppins;
-            src: url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+            src: url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
         }
 
         .font-poppins {
-            font-family: poppins;
+            font-family: 'Poppins', sans-serif;
         }
     </style>
 </head>
-<body class="font-poppins dark:bg-[#111723] dark:text-[#4F9AFE] dark:bg-white light:bg-[#FFFFFF] light:text-[#000000]">
-        <nav class="flex flex-row items-center justify-between w-full h-auto px-16 bg-transparent md:px-32"> 
-            <div class="flex items-center justify-center">
-                <a href=""> <img src="img/qlogo.png" class="h-32 w-38" alt=""> </a>    
-            </div>
 
-            <div class="flex items-center justify-center">
-                <div class="flex items-center justify-center hidden space-x-10 md:block lg:space-x-2">
-                <a href="#" class="focus:outline-none focus:text-white hover:text-white"> About </a>
-                <a href="#" class="focus:outline-none focus:text-white hover:text-white"> Templates </a>
-                <a href="#" class="focus:outline-none focus:text-white hover:text-white"> FAQ & Pricing </a>
-                <a href="#" class="focus:outline-none focus:text-white hover:text-white"> Documentation </a>
-                <a href="#" class="focus:outline-none focus:text-white hover:text-white"> Contact </a>
-                <a href="#" class="flex inline-flex items-center focus:outline-none focus:text-white hover:text-white"> Sign in
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+<body class="font-poppins bg-[#efefef] dark:bg-[#111723] dark:text-[#4F9AFE]   ">
+    <nav
+        class="flex flex-row items-center dark:text-[#4F9AFE] text-[#454545] justify-between w-full h-auto p-4 bg-transparent md:px-16 lg:px-24 2xl:px-32">
+        <!-- logo -->
+        <div class="flex items-center justify-start">
+            <a href=""> <img src="img/qlogo.png" class="w-32 h-auto lg:w-40" alt="quickoder logo"> </a>
+        </div>
+
+        <!-- desktop nav -->
+        <div class="flex items-center justify-end">
+            <div
+                class="flex items-center justify-center hidden space-x-4 text-xs font-light lg:text-base lg:space-x-10 md:block">
+                <a href="#"
+                    class="focus:outline-none hover:text-[#4F9AFE] focus:text-[#4F9AFE] dark:focus:text-[#FFFFFF] dark:hover:text-[#FFFFFF]">
+                    About </a>
+                <a href="#"
+                    class="focus:outline-none hover:text-[#4F9AFE] focus:text-[#4F9AFE] dark:focus:text-[#FFFFFF] dark:hover:text-[#FFFFFF]">
+                    Templates </a>
+                <a href="#"
+                    class="focus:outline-none hover:text-[#4F9AFE] focus:text-[#4F9AFE] dark:focus:text-[#FFFFFF] dark:hover:text-[#FFFFFF]">
+                    FAQ & Pricing </a>
+                <a href="#"
+                    class="focus:outline-none hover:text-[#4F9AFE] focus:text-[#4F9AFE] dark:focus:text-[#FFFFFF] dark:hover:text-[#FFFFFF]">
+                    Documentation </a>
+                <a href="#"
+                    class="focus:outline-none hover:text-[#4F9AFE] focus:text-[#4F9AFE] dark:focus:text-[#FFFFFF] dark:hover:text-[#FFFFFF]">
+                    Contact </a>
+                <a href="#"
+                    class="flex inline-flex items-center focus:outline-none hover:text-[#4F9AFE] focus:text-[#4F9AFE] dark:focus:text-[#FFFFFF] dark:hover:text-[#FFFFFF]">
+                    Sign in
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-auto pl-2" viewBox="0 0 20 20"
+                        fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd" />
                     </svg>
                 </a>
-                </div>
-
-                <div class="block md:hidden">
-                    <button class="focus:outline-none" onClick="toggleElement('navigation')">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="block w-8 h-8" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
-                        </svg>
-                    </button>
-                </div>
             </div>
-        </nav>
-        
-        <div id="navigation" class="flex items-center justify-end hidden mx-16 bg-transparent">
-            <div class="flex flex-col space-y-4 text-right">
-                <a href="#" class="focus:outline-none focus:text-white"> About </a>
-                <a href="#" class="focus:outline-none focus:text-white"> Templates </a>
-                <a href="#" class="focus:outline-none focus:text-white"> FAQ & Pricing </a>
-                <a href="#" class="focus:outline-none focus:text-white"> Documentation </a>
-                <a href="#" class="focus:outline-none focus:text-white"> Contact </a>
+
+            <!-- burger button -->
+            <div class="block md:hidden">
+                <button class="focus:outline-none" onClick="toggleElement('navigation')">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="block w-8 h-8" viewBox="0 0 20 20"
+                        fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
             </div>
         </div>
-        <!-- End of NavBar -->
+    </nav>
 
-        <div class="flex flex-col items-center justify-center w-full px-16 mt-10 space-y-16 md:px-32">
-            <h1 class="text-5xl tracking-widest uppercase"> Who are we </h1>
-            <p class="text-center dark:text-white break-words mx-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <!-- mobile nav -->
+    <div id="navigation" class="flex items-center justify-end hidden mx-16 bg-transparent">
+        <div class="flex flex-col space-y-4 text-right dark:text-[#4F9AFE] text-[#454545]">
+            <a href="#" class="focus:outline-none focus:text-white"> About </a>
+            <a href="#" class="focus:outline-none focus:text-white"> Templates </a>
+            <a href="#" class="focus:outline-none focus:text-white"> FAQ & Pricing </a>
+            <a href="#" class="focus:outline-none focus:text-white"> Documentation </a>
+            <a href="#" class="focus:outline-none focus:text-white"> Contact </a>
         </div>
+    </div>
+    <!--======================= End of NavBar =======================-->
 
-        <!-- Our Mission -->
-        <div class="grid w-full h-auto grid-cols-2 mt-28">
-            <div class="flex flex-col items-center justify-center w-full h-full space-y-10" style="background-color: #161E2E;">
-                <h3 class="text-3xl tracking-widest "> OUR MISSION</h3>
-                <p class="mx-20 text-center text-white break-word text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+    <!--======================= MAIN =======================-->
+    <div class="flex flex-col w-full h-full font-light text-center">
+        <!-- Section 1: Hero -->
+        <section
+            class="flex flex-col items-center justify-center w-full px-16 py-10 space-y-6 md:py-28 2xl:py-48 md:space-y-10 lg:space-y-16 md:px-32 ">
+            <h1 class="text-3xl md:text-4xl lg:text-5xl md:tracking-widest uppercase text-[#4f9afe]"> Who are we </h1>
+            <p
+                class="lg:px-20 2xl:px-40 text-xs text-[#161e2e] lg:text-base dark:text-white leading-relaxed lg:leading-loose md:tracking-wide lg:tracking-widest">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+        </section>
+
+        <!-- Section 2: Mission, Approach, Process-->
+        <section class="flex flex-col w-full md:grid md:grid-cols-2">
+
+            <!--=============== Our Mission ===============-->
+            <div
+                class="order-1 md:order-none flex flex-col items-center justify-center w-full md:h-full space-y-4 lg:space-y-8 h-80 bg-[#d9dbe1] dark:bg-[#161e2e]">
+                <h2 class="text-[#4f9afe] text-2xl md:text-3xl lg:text-4xl tracking-widest uppercase"> OUR MISSION</h2>
+                <p
+                    class="px-10 lg:px-20 2xl:px-40 text-xs text-[#161e2e] lg:text-base dark:text-white leading-relaxed lg:leading-loose md:tracking-wide lg:tracking-widest">
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex
+                    ea commodo consequat. </p>
             </div>
 
-            <div>
-                <img src="img/mission.png" alt="">
+            <!-- Mission Image -->
+            <img class="order-2 w-full h-80 md:h-auto md:order-none" src="img/mission.png" alt="Mission Image">
+
+
+            <!--=============== Our Approach ===============-->
+
+            <!-- Approach Image -->
+            <img class="order-4 w-full h-80 md:h-auto md:order-none" src="img/approach.png" alt="Approach Image">
+
+
+            <div
+                class="order-3 md:order-none flex flex-col items-center justify-center w-full md:h-full space-y-4 lg:space-y-8 h-80 bg-[#d9dbe1] dark:bg-[#161e2e]">
+                <h2 class="text-[#4f9afe] text-2xl md:text-3xl lg:text-4xl tracking-widest uppercase"> OUR APPROACH</h2>
+                <p
+                    class="px-10 lg:px-20 2xl:px-40 text-xs text-[#161e2e] lg:text-base dark:text-white leading-relaxed lg:leading-loose md:tracking-wide lg:tracking-widest">
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex
+                    ea commodo consequat. </p>
             </div>
 
-            <!-- Our Approach -->
-            <div>
-                <img src="img/approach.png" alt="">
+            <!--=============== Our Process ===============-->
+            <div
+                class="order-5 md:order-none flex flex-col items-center justify-center w-full md:h-full space-y-4 lg:space-y-8 h-80 bg-[#d9dbe1] dark:bg-[#161e2e]">
+                <h2 class="text-[#4f9afe] text-2xl md:text-3xl lg:text-4xl tracking-widest uppercase"> OUR PROCESS</h2>
+                <p
+                    class="px-10 lg:px-20 2xl:px-40 text-xs text-[#161e2e] lg:text-base dark:text-white leading-relaxed lg:leading-loose md:tracking-wide lg:tracking-widest">
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex
+                    ea commodo consequat. </p>
             </div>
 
-            <div class="flex flex-col items-center justify-center w-full h-full space-y-10" style="background-color: #161E2E;">
-                <h3 class="text-3xl tracking-widest "> OUR APPROACH</h3>
-                <p class="mx-20 text-center text-white break-word text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-            </div>
+            <!-- Process Image -->
+            <img class="order-6 w-full h-80 md:h-auto md:order-none" src="img/process.png" alt="Process Image">
 
-            <!-- Our Process -->
-            <div class="flex flex-col items-center justify-center w-full h-full space-y-10" style="background-color: #161E2E;">
-                <h3 class="text-3xl tracking-widest "> OUR PROCESS</h3>
-                <p class="mx-20 text-center text-white break-word text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-            </div>
+    </div>
 
-            <div>
-                <img src="img/process.png" alt="">
-            </div>
-        </div>
-        
-        <!-- script -->
-        <script>
-            function toggleElement(elemID){
+
+    </section>
+
+    <!-- script -->
+    <script>
+        function toggleElement(elemID) {
             document.getElementById(elemID).classList.toggle("hidden");
             document.getElementById(elemID).classList.toggle("block");
-            }
-        </script>
+        }
+    </script>
 </body>
+
 </html>
